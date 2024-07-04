@@ -1,10 +1,13 @@
+#straight from gpt, to review
+
+
 from telegram.ext import Updater, MessageHandler, Filters
 
 # Your bot token from BotFather
 BOT_TOKEN = 'YOUR_BOT_TOKEN'
 
 # List of keywords to search for in messages
-keywords = ['facebook', 'meta', 'twitter']
+keywords = ['keyword']
 
 # Chat ID of the target group
 TARGET_CHAT_ID = -1001234567890  # Replace with your group's chat ID
