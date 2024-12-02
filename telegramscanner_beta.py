@@ -10,7 +10,7 @@ BOT_TOKEN = 'YOUR_BOT_TOKEN'
 keywords = ['keyword']
 
 # Chat ID of the target group
-TARGET_CHAT_ID = -1001234567890  # Replace with your group's chat ID
+TARGET_CHAT_ID = -123123123  # Replace with your group's chat ID
 
 def message_handler(update, context):
     if update.message.chat_id == TARGET_CHAT_ID:
